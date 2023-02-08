@@ -1,0 +1,17 @@
+{
+  "name": "practice2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simpleWebServer.js",
+  "scripts": {
+    "start": "node simpleWebServer.js",
+    "dev": "nodemon simpleWebServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "moment": "^2.29.4"
+  }
+}
