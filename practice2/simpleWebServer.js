@@ -25,7 +25,12 @@ const server = http.createServer(async (req, res) =>{
     if(req.url === '/api/person'){
         res.writeHead(200, {'Content-Type': 'application/json'})
         setTimeout(() =>{
-            emitter.emit('personReady')
+            emitter.emit('personReady', {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Smith",
+        "age": 18
+    })
         },2000)
         emitter.on('personReady', (person) =>{
             res.end(JSON.stringify({person}))
