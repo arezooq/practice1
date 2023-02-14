@@ -1,7 +1,6 @@
 {
-  "name": "practice2",
+  "name": "@test/practice2",
   "version": "1.0.0",
-  "description": "",
   "main": "simpleWebServer.js",
   "scripts": {
     "start": "node simpleWebServer.js",
@@ -13,5 +12,6 @@
   "dependencies": {
     "date-fns": "^2.29.3",
     "moment": "^2.29.4"
-  }
+  },
+  "description": ""
 }
