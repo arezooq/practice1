@@ -1,4 +1,3 @@
-# exercise
 # Middleware
 
 ## Introduction
